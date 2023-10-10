@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Oldenburg&family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 85px 32px 78px 32px;
+} 
+.tekstebi{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.box1:hover{
+    transform:scale(1.4) ;
+    transition: 1.5s;
+}
+.box2:hover{
+    transform:scale(1.3) ;
+    transition: 1.5s;
+}
+.box3:hover{
+    transform:scale(1.2) ;
+    transition: 1.5s;
+}
+.box4:hover{
+    transform:scale(1.1) ;
+    transition: 1.5s;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.167px;
+}
+h2{
+    margin-left: 4px;
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.167px;
+    margin: 0 0 13px 0;
+}
+h3{
+    width: 311px;
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.104px;
+    opacity: 0.5;
+    margin: 0 0 76px 0;
+}
+.box1{
+    position: relative;
+    margin: 0  0 25px 0;
+    width: 311px;
+    height: 222px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+.line1{
+    width: 311px;
+    height: 3.552px;
+    border-radius: 8px 8px 0 0;
+    flex-shrink: 0;
+    background: #44D3D2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+.img1{
+    position: absolute;
+    top: 137px;
+    right: 28px;
+    bottom: 28px;
+    left: 226px;
+    width: 57px;
+    height: 57px;
+    flex-shrink: 0;
+    align-items: end;
+}
+h4{
+    text-align: left;
+    margin: 23.45px 0 0 28px;
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+h5{
+    text-align: left;
+    margin: 1px 0 0 28px;
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 176.923% */
+    letter-spacing: 0.09px;
+    width: 254px;
+    opacity: 0.5;
+}
+.box2{
+    position: relative;
+    margin: 0  0 25px 0;
+    width: 311px;
+    height: 222px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+.line2{
+    width: 311px;
+    height: 3.552px;
+    border-radius: 8px 8px 0 0;
+    flex-shrink: 0;
+    background: #EA5454;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+.img2{
+    position: absolute;
+    top: 137px;
+    right: 28px;
+    bottom: 28px;
+    left: 226px;
+    width: 57px;
+    height: 57px;
+    flex-shrink: 0;
+}
+.tbuild{
+    margin: 27px 148px 1px 28px;
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.box3{
+    position: relative;
+    margin: 0  0 25px 0;
+    width: 311px;
+    height: 222px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+.line3{
+    width: 311px;
+    height: 3.552px;
+    border-radius: 8px 8px 0 0;
+    flex-shrink: 0;
+    background: #FCAE4A;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+.img3{
+    position: absolute;
+    top: 137px;
+    right: 28px;
+    bottom: 28px;
+    left: 226px;
+    width: 57px;
+    height: 57px;
+    flex-shrink: 0;
+}
+.box4{
+    position: relative;
+    margin: 0  0 78px 0;
+    width: 311px;
+    height: 222px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+.img4{
+    position: absolute;
+    top: 137px;
+    right: 28px;
+    bottom: 28px;
+    left: 226px;
+    width: 57px;
+    height: 57px;
+    flex-shrink: 0;
+}
+.line4{
+    width: 311px;
+    height: 3.552px;
+    border-radius: 8px 8px 0 0;
+    flex-shrink: 0;
+    background: #549EF2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
